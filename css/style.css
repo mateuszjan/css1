@@ -1,0 +1,26 @@
+* {
+    color: black
+}
+
+/* selektor laczony */
+div.background  {
+    background-color: green;
+}
+
+/* selektor bezpośrednioego potomka */
+
+li > a {
+    color: violet;
+}
+
+/* selektor potomka */
+
+li a {
+    color: black;
+}
+
+/* selektor bezpośrednioego potomka */
+
+nav + .background {
+    background-color: limegreen;
+}
