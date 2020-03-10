@@ -112,3 +112,26 @@ input[title$="inpu"] {
     background-color: indigo;
 }
 
+/* pozycjonowanie */
+
+.position {
+    position: relative;
+}
+
+.position-inner {
+    height: 200px;
+    position: orange;
+}
+
+.orange {
+    background-color: orange;
+    position: absolute;
+    left: 10px;
+    top: 10px; 
+    width: 100%;
+}
+
+.gray {
+    background-color: gray;
+    position: relative
+}
