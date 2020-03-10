@@ -59,3 +59,31 @@ ul li:first-of-type a {
 ul li:nth-last-of-type(3n + 2) a {
     color: orange;
 }
+
+/* selektor atrybutu
+wszystkie kolory które posiadają dany atrybut (typ) */
+
+[type] {
+    background-color: grey;
+}
+
+input[title="pierwszy input"] {
+    background-color: orange;
+}
+
+input[title="drugi input"] {
+    background-color: red;
+}
+
+
+/* wartość odzielona spacja */
+/* specjalny błąd w "input" */
+inpu[title~="input"] {
+    background-color: red;
+}
+
+/* czy znajduje się dany ciąg znaków */
+
+input[title*="ty"] {
+    background-color: aqua;
+}
