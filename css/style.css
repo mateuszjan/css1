@@ -135,3 +135,12 @@ input[title$="inpu"] {
     background-color: gray;
     position: relative
 }
+
+.main-nav {
+    position: fixed;
+    z-index: 9999999999;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
