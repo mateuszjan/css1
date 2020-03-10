@@ -198,4 +198,28 @@ div.background {
     background-color: rgb(255, 0, 0);                   /* skrót RGB*/
     background-color: rgb(0, 255, 0);                   /* skrót RGB*/
     background-color: rgb(0, 0, 255);                   /* skrót RGB*/
-    background-color: rgba(red, green, blue, 1.5)
+    background-color: rgba(red, green, blue, 1.5);
+}
+    /* wyświetlanie */  
+
+    .display {
+        text-align: center;    /* centrowanie liniowych bloków */  
+    }
+
+    .display-inner {
+        height: 200px;
+        width: 200px;   
+        background-color: #000;
+        display: inline-block;
+        font-size: 16;
+    }
+
+    /* float */
+
+    .float-inner img{
+        float: right;
+    }
+
+    .clear {
+        clear: right;   
+    }
