@@ -87,3 +87,16 @@ inpu[title~="input"] {
 input[title*="ty"] {
     background-color: aqua;
 }
+
+/* czy zaczyna się na konkretny ciąg znaków */
+
+input[title^="p"] {
+    background-color: green;
+}
+
+/* czy dany ciąg znaków kończy się na ... */
+
+input[title$="t"] {
+    background-color: olive;
+}
+
