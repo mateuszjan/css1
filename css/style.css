@@ -24,3 +24,38 @@ li a {
 nav + .background {
     background-color: limegreen;
 }
+
+.toThree {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+/* psudoklasy (najechanie myszką) */    
+
+li a:hover {
+    color: black
+}
+
+input:focus {
+    border: 1.5px solid black;
+    outline: 0;
+}
+
+ul li:first-child a {
+    color: violet;
+}
+
+ul li:last-child a {
+    color: pink;
+}
+
+ul li:first-of-type a {
+    color: yellow;
+}
+
+/* an + b - a co ile skaczemy, b od którego zaczynamy */
+
+ul li:nth-last-of-type(3n + 2) a {
+    color: orange;
+}
