@@ -241,3 +241,13 @@ div.background {
         width: 600px;
         background-color: blue;
     }
+
+    /* właściwości tła */
+
+    .background1 {
+        height: 800px;
+        background-image: url('https://edupolis.pl/wp-content/uploads/2019/02/OSIRIS_Mars_true_color.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;  
+        background-position: center;
+    }
