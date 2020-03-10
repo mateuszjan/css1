@@ -151,3 +151,32 @@ div.background {
     top: 0;
     z-index: 9999999;
 }
+
+/* jednostki miary */
+
+#jednostki-miary {
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+#jednostki-miary > div {
+    background-color: burlywood;
+    margin-bottom: 10px;
+}
+
+#piksele {
+    width: 400px;
+}
+
+#em {
+    width: 30em;
+}
+
+#procenty {
+    width: 50%;
+    font-size: 50%;
+}
+
+#vh {
+    width: 50vh;
+}
