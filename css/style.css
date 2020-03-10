@@ -95,8 +95,19 @@ input[title^="p"] {
 }
 
 /* czy dany ciąg znaków kończy się na ... */
+/* specjalny błąd w atrybucie */
 
-input[title$="t"] {
+input[title$="inpu"] {
     background-color: olive;
+}
+
+/* hierarchia css */
+
+#main-nav .ul {
+    background-color: gray;
+}
+
+.main-nav #ul {
+    background-color: indigo;
 }
 
