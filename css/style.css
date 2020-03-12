@@ -202,52 +202,53 @@ div.background {
 }
     /* wyświetlanie */  
 
-    .display {
-        text-align: center;    /* centrowanie liniowych bloków */  
-    }
+.display {
+    text-align: center;    /* centrowanie liniowych bloków */  
+}
 
-    .display-inner {
+.display-inner {
         height: 200px;
-        width: 200px;   
-        background-color: #000;
-        display: inline-block;
-        font-size: 16;
-    }
+    width: 200px;   
+    background-color: #000;
+    display: inline-block;
+    font-size: 16;
+ }
 
     /* float */
 
-    .float-inner img{
-        float: right;
-    }
+.float-inner img{
+float: right;
+  }
 
-    .clear {
-        clear: right;   
-    }
+ .clear {
+clear: right;   
+ }
 
     /* tranzycje */
 
-    .transition {
-        width: 300px;
-        height: 100px;
-        background-color: red;
-        transition-property: all;
-        transition-duration: 0.4s;
-        transition-timing-function: ease-in;
-        transition: width .4s ease-in, background-color .4s ease-in .4s;
+.transition {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+    transition: width .4s ease-in, background-color .4s ease-in .4s;
 
-    }
+}
 
-    .transition:hover {
-        width: 600px;
-        background-color: blue;
-    }
+.transition:hover {
+    width: 600px;
+    background-color: blue;
+}
 
     /* właściwości tła */
 
-    .background1 {
-        height: 800px;
-        background-image: url('https://edupolis.pl/wp-content/uploads/2019/02/OSIRIS_Mars_true_color.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;  
-        background-position: center;
-    }
+.background1 {
+    height: 800px;
+    background-image: url('https://edupolis.pl/wp-content/uploads/2019/02/OSIRIS_Mars_true_color.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
