@@ -265,3 +265,33 @@ clear: right;
     overflow: auto;
 }
 
+
+/* transform */
+
+.transform div {
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.transform img {
+    transition: all 0.4s;
+}
+
+.transform .rotate img:hover {
+    transform: rotate(-360deg);
+}
+
+.transform .translate img:hover {
+    transform: translate(100px, 10px);
+}
+
+.transform .scale img:hover {
+    transform: scale(1.5);
+}
+
+
+
+
+/* tr: translate to (-50%, -50%) */
+/* przesunięcie zawsze następuje od środka */
