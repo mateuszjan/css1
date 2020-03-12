@@ -305,7 +305,7 @@ clear: right;
     animation-iteration-count: infinite;
     animation-duration: 3s;
     animation-timing-function: linear;
-    
+
 }
 
 /* animacje */
@@ -317,4 +317,45 @@ clear: right;
     50% {
         width: 50%;
     }
+}
+
+/* flex */
+/* container z obiektami, które są zależne od niego */
+/* wszystko w osi */
+
+.flex-container {
+    /* dostęp do osi */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+
+    /* align-content traktuje jako osobne wiersze */
+    /* align-item traktuje jako jeden wiersz */
+    align-items: center;
+    height: 400px;
+    background-color: green;
+
+   
+}
+
+.flex-item {
+    /* basis idzie tylko na itemy */
+    /* szerokość itemu */
+    flex-basis: 25%;
+}
+/* ustawianie kolejności według orderów 0->X */
+
+.flex-item:first-of-type {
+    order: 1;
+    flex-grow: 1;
+}
+
+/* align-items żeby wyłamać content */
+.flex-item:nth-of-type(2) {
+    align-self: flex-start;
+}
+
+.flex-item:nth-of-type(4) {
+    flex-shrink: 4;
 }
