@@ -2,4 +2,14 @@
     .background-property {
         display: none;
     }
+
+    .transition {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .background-property {
+        display: block;
+    }
 }
