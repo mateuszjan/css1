@@ -291,7 +291,30 @@ clear: right;
 }
 
 
-
-
 /* tr: translate to (-50%, -50%) */
 /* przesunięcie zawsze następuje od środka */
+
+
+
+
+
+.animation  {
+    height: 100px;
+    background-color: blue;
+    animation-name: resize;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+}
+
+/* animacje */
+
+@keyframes resize {
+    0%, 100% {
+        width: 100%;
+    }
+    50% {
+        width: 50%;
+    }
+}
